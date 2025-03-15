@@ -1,4 +1,4 @@
 let IS_PROD = true;
-const server = "http://localhost:5000";
+const server = "https://salesstudio-backend.onrender.com";
 
 export default server;
