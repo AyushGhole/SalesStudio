@@ -1,0 +1,44 @@
+
+@import "tailwindcss";
+
+.mainBody{
+  background-color: black; 
+  color: white; 
+
+}
+
+nav{
+  padding-inline: 1.2rem;
+  padding-block: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .navList{
+  display: flex;
+  text-align: center;
+  gap: 1.5rem;
+  cursor: pointer;
+
+}
+
+.landingPageContainer nav h2{
+  font-size: 1.82rem;
+  font-weight: 500;
+}
+
+.navList p:hover{
+  opacity: 0.5;
+}
+.coupons{
+ 
+  padding: 1.5rem; 
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+
+.coupons h3{
+  color: orange;
+}
