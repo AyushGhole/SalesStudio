@@ -4,3 +4,16 @@ we worked on implementing JWT authentication and a coupon management system in a
 <br>
 <br>
 <img src="frontend/public/sales.png" />
+<br>
+<br>
+<h1>🚀 Setup Process for JWT Authentication & Coupon Management System</h1> 
+1️⃣  Install Backend Dependencies<br> 
+<ul>
+  <li>express – Web framework for Node.js</li>
+  <li>mongoose – MongoDB ODM for database handling</li>
+  <li>dotenv – Loads environment variables</li>
+  <li>jsonwebtoken – JWT authentication</li>
+  <li>bcrypt – Secure password hashing</li>
+  <li>cors – Enables CORS for frontend communication</li>
+</ul>
+2️⃣  
