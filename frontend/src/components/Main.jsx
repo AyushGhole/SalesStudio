@@ -23,7 +23,7 @@ const CouponsList = () => {
 
   const fetchCoupons = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/couponsDetails");
+      const response = await axios.get("https://salesstudio-backend.onrender.com/couponsDetails");
       if (response.data.length > 0) {
         setCoupons(response.data);
       } else {
@@ -38,7 +38,7 @@ const CouponsList = () => {
   const claimCoupon = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/coupons/claim"
+        "https://salesstudio-backend.onrender.com/api/coupons/claim"
       );
       setClaimedCoupon(response.data.coupon);
 
@@ -130,7 +130,7 @@ const CouponsList = () => {
         console.log("🚀 Sending PUT request with token:", token); //  Debugging log
 
         const response = await axios.put(
-          `http://localhost:5000/api/coupons/edit/${coupon._id}`,
+          `https://salesstudio-backend.onrender.com/api/coupons/edit/${coupon._id}`,
           formValues,
           {
             headers: {
